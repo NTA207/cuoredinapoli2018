@@ -13,9 +13,9 @@
     transform: scale(1.0);
     opacity: 1;
   }
-  50% {
+  /*50% {
     opacity: 0.6;
-  }
+  }*/
   80% {
     transform: scale(1.05);
     opacity: 0;
