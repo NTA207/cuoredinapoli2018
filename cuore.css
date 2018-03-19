@@ -1,0 +1,34 @@
+.cuore {
+  height: 400px;
+  /*animation-delay: 2s;*/
+  animation: ciccio 3s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  /*animation-direction: alternate;*/
+}
+
+@keyframes ciccio {
+  0% {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  80% {
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0.6;
+  }
+
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #e74c3c;
+}
