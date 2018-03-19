@@ -1,0 +1,52 @@
+.cuore {
+  height: 400px;
+  /*animation-delay: 2s;*/
+  animation: ciccio 3s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  /*animation-direction: alternate;*/
+}
+@keyframes ciccio {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  80% {
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
+html, body {
+  height: 100%;
+  background-color: #e74c3c;
+}
+.pixelart {
+  list-style: none;
+  margin: 3em auto;
+  max-width: 800px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.pixelart--cuore {
+  position: relative;
+  width: 720px;
+  height: 480px;
+}
+.pixelart--cuore:after {
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 72px;
+  height: 72px;
+  box-shadow: 80px 80px rgba(0, 0, 0, 0),160px 80px rgba(0, 0, 0, 0),240px 80px #d02330,320px 80px #d02330,400px 80px rgba(0, 0, 0, 0),480px 80px #d02330,560px 80px #d02330,640px 80px rgba(0, 0, 0, 0),720px 80px rgba(0, 0, 0, 0),80px 160px rgba(0, 0, 0, 0),160px 160px #d02330,240px 160px #d02330,320px 160px #d02330,400px 160px #d02330,480px 160px #d02330,560px 160px #d02330,640px 160px #d02330,720px 160px rgba(0, 0, 0, 0),80px 240px rgba(0, 0, 0, 0),160px 240px #d02330,240px 240px #d02330,320px 240px #d02330,400px 240px #d02330,480px 240px #d02330,560px 240px #d02330,640px 240px #d02330,720px 240px rgba(0, 0, 0, 0),80px 320px rgba(0, 0, 0, 0),160px 320px rgba(0, 0, 0, 0),240px 320px #d02330,320px 320px #d02330,400px 320px #d02330,480px 320px #d02330,560px 320px #d02330,640px 320px rgba(0, 0, 0, 0),720px 320px rgba(0, 0, 0, 0),80px 400px rgba(0, 0, 0, 0),160px 400px rgba(0, 0, 0, 0),240px 400px rgba(0, 0, 0, 0),320px 400px #d02330,400px 400px #d02330,480px 400px #d02330,560px 400px rgba(0, 0, 0, 0),640px 400px rgba(0, 0, 0, 0),720px 400px rgba(0, 0, 0, 0),80px 480px rgba(0, 0, 0, 0),160px 480px rgba(0, 0, 0, 0),240px 480px rgba(0, 0, 0, 0),320px 480px rgba(0, 0, 0, 0),400px 480px #d02330,480px 480px rgba(0, 0, 0, 0),560px 480px rgba(0, 0, 0, 0),640px 480px rgba(0, 0, 0, 0),720px 480px rgba(0, 0, 0, 0);
+}
